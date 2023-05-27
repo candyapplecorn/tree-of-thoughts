@@ -33,3 +33,19 @@ interface TreeNode<ComparableType> {
 
 // @TODO - how the heck did i do this? recursion yes, ternary yes... gah!!!
 // type maxLengthArray<maxLength extends number> =
+
+// WIP
+interface Prompts {
+  // I want to boil water while on vacation in Hawaii. I have a stove, a pot, and a lighter.
+  initialPrompt: string;
+  systemPrompt: string; // ?
+
+  // Human: "${initialPrompt}".
+  // AI: "${response}".
+  // Human: "${ensuingPrompt}".
+  // AI: "${response}".
+  ensuingPrompt: string;
+
+  heuristicPrompt: string;
+
+}
